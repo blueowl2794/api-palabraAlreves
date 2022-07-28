@@ -20,3 +20,6 @@ app.get('/iecho', palabraAlreves);//iecho?text=test
 app.listen(port,()=>{
     console.log(`listening... ${port}`);
 })
+
+module.exports = {app};
+
